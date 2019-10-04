@@ -1,0 +1,8 @@
+.active {
+    border: 2px solid white;
+    color: black;
+}
+
+body {
+    background-color: white;
+}
