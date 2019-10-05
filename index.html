@@ -15,72 +15,115 @@
   <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
-
-  <nav class="navbar navbar-light scrolling-navbar fixed-top navbar-expand-lg white py-4 h5-responsive">
-    <a class="navbar-brand" href="#home">
-      Jesse Feder Personal Training
-    </a>
-
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
-      aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-
-    <div class="collapse navbar-collapse text-center" id="navbarContent">
-      <ul class="navbar-nav ml-auto">
-        <li class="nav-item">
-          <a class="nav-link" href="#home">
-            Home
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#about">
-            About
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#services">
-            Services
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">
-            Contact
-            <span class="sr-only">(current)</span>
-          </a>
-        </li>
-      </ul>
+<body data-spy="scroll" data-target=".navbar" data-offset="100">
+<header class="py-5" id="home">
+  <nav class="navbar navbar-dark scrolling-navbar fixed-top navbar-expand-lg black py-4">
+    <div class="container">
+        <a class="navbar-brand" href="#home">
+            Jesse Feder Personal Training
+        </a>
+      
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+      
+          <div class="collapse navbar-collapse text-center" id="navbarContent">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#home">
+                  Home
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">
+                  About
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#services">
+                  Services
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">
+                  Contact
+                  <span class="sr-only">(current)</span>
+                </a>
+              </li>
+            </ul>
+          </div>
     </div>
-
-
   </nav>
+</header>
 
-  <div class="container text-center">
-    <div id="home">
+<main class="pt-3">
+  <!--LANDING SECTION-->
+  <div class="container text-center shadow mb-4">
+    <div class="row black">
+      <div class="col-lg-9 p-0">
+        <img class="img-fluid" src="img/barbell-black-and-white-black-and-white-791763.jpg">
+      </div>
 
-      <img class="img-fluid mh-50" src="img/barbell-black-and-white-black-and-white-791763.jpg">
-    </div>
+      <div class="col-lg-3 p-4">
+        <div class="row">
+          <div class="col">
+            <img class="img-fluid shadow" src="img/jesse-feder-personal-trainer.JPG">
+          </div>   
+        </div>
+
+        <div class="row">
+          <div class="col text-white">
+            Certified Personal Trainer
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col">
+            <a href="#contact" class="btn btn-primary #304ffe indigo accent-4">Get in Touch</a>
+          </div>
+        </div>
+      </div>
+    </div>   
   </div>
-  <div class="container vh-100 white">
-    <div id="about">
-      <h1>About</h1>
+
+  <!--ABOUT SECTION-->
+  <div class="container" id="about">
+    <div class="row mb-4">
+      <div class="col">
+        <h1 class="display-3">About Me</h1>
+      </div>
+
+      <div class="col"><h5>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quibusdam quae ab alias saepe incidunt voluptatem? Ea quaerat nemo cumque libero dolores ex illum. Atque sint ipsa hic veritatis quos.
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam vero unde recusandae, molestiae fuga nobis atque error saepe aperiam explicabo deserunt velit sequi quaerat eligendi labore quos. Autem, amet delectus?
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo dicta pariatur, deleniti esse porro, id non rerum accusantium reiciendis error commodi accusamus iste? Veritatis, commodi fugiat dolor deserunt blanditiis sapiente.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus natus, error maiores, placeat itaque repudiandae facilis molestias eaque eos minima rem dolore aspernatur voluptatem ipsa! Recusandae similique totam aperiam nobis?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam accusamus odio tenetur reprehenderit. Ut distinctio similique expedita dolores quam debitis, sit praesentium optio itaque totam error est alias animi. Eius.
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione impedit culpa itaque non ex veniam doloremque eius dignissimos ipsam, expedita ipsum illum! Nihil, accusantium! Optio doloremque ipsa quia facilis corrupti!
+      </h5></div>
     </div>
+    <hr>
   </div>
-  <div class="container vh-100 text-light black" id="services">
+
+  <!--SERVICES SECTION-->
+  <div class="container vh-100" id="services">
     <h1>Services</h1>
+    
   </div>
-  <div class="container vh-100 white" id="contact">
+
+  <!--CONTACT SECTION-->
+  <div class="container vh-100" id="contact">
 
   </div>
-  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
-  <script type="text/javascript" src="js/popper.min.js"></script>
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/mdb.min.js"></script>
-  <script type="text/javascript" src="js/script.js"></script>
+
+</main>
+    <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/popper.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
-
 </html>
