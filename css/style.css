@@ -1,8 +1,17 @@
-.active {
-    border: 2px solid white;
-    color: black;
+.active { 
+    background-color: black !important;
+    border-radius: 2px;
+}
+
+.nav-link {
+    color: black !important;
+}
+
+.nav-link.active {
+    color: white !important;
 }
 
 body {
-    background-color: white;
+    background-color: black;
 }
+
