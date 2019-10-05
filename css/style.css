@@ -1,17 +1,16 @@
 .active { 
-    background-color: black !important;
+    background-color: white !important;
     border-radius: 2px;
 }
 
 .nav-link {
-    color: black !important;
-}
-
-.nav-link.active {
     color: white !important;
 }
 
-body {
-    background-color: black;
+.nav-link.active {
+    color: black !important;
 }
 
+body {
+    background-color: white;
+}
