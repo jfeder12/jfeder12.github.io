@@ -1,3 +1,7 @@
+body {
+    background-color: white;
+}
+
 .active { 
     background-color: white !important;
     border-radius: 2px;
@@ -11,6 +15,6 @@
     color: black !important;
 }
 
-body {
-    background-color: white;
+#form-text-area {
+    resize: none;
 }
