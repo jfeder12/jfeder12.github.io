@@ -288,13 +288,13 @@
               Send me an email
             </h4>
 
-            <!--Contact Form-->
-            <form action="https://mailthis.to/gsoccerm" method="POST">
+            <!--Contact Form--><!--action="https://mailthis.to/gsoccerm" method="POST"-->
+            <form>
               <div class="container">
                 <div class="row">
                   <div class="col">
                     <div class="md-form">
-                      <input type="text" name="name" class="form-control" placeholder="Your name">
+                      <input type="text" name="name" class="form-control" placeholder="Your name" required>
                     </div>
                   </div>
                 </div>
@@ -302,7 +302,7 @@
                 <div class="row">
                   <div class="col">
                     <div class="md-form">
-                      <input type="email" name="_replyto" class="form-control" placeholder="Your email address">
+                      <input type="email" name="_replyto" class="form-control" placeholder="Your email address" required>
                     </div>
                   </div>
                 </div>
@@ -310,7 +310,7 @@
                 <div class="row">
                   <div class="col">
                     <div class="md-form">
-                      <textarea type="text" name="message" class="md-textarea form-control" id="form-text-area" placeholder="Your message"></textarea>
+                      <textarea type="text" name="message" class="md-textarea form-control" id="form-text-area" placeholder="Your message" required></textarea>
                     </div>
                   </div>
                 </div>
@@ -322,7 +322,7 @@
                 </div>
               </div>
               <input type="hidden" name="_subject" value="JFeder Website Contact Form">
-              <input type="hidden" name="_after" value="https://gregmurray.org/jfederfitness/">
+              <input type="hidden" name="_after" value="https://gregmurray.org/jfederfitness/confirmation.html">
               <input type="hidden" name="_honeypot" value="">
             </form>
           </div>
