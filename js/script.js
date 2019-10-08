@@ -42,3 +42,17 @@ $(function() {
         }
     });
 });
+
+window.onscroll = function() {fadeTopBtn()};
+
+function goToTop(){
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+}
+
+function fadeTopBtn(){
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop > 300)
+        $("#topBtn").fadeIn();  
+    else
+        $("#topBtn").fadeOut();
+}
