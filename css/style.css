@@ -37,6 +37,7 @@ body {
     color: white;
     background-color: black;
     border: none;
+    text-align: center;
 }
 
 #topBtn:focus {
